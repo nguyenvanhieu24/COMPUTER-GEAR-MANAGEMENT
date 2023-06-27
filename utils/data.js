@@ -1,0 +1,102 @@
+//Now i create data file for products, because it's easier
+//This time I will show you how to manually enter a file in DB, I will not create a seed file
+const products = [
+    {
+        name: "G502 PLUS GAMING MOUSE",
+        category: "mouses",
+        price: 163.79,
+        image: "images/mouses/1.png",
+    },
+    {
+        name: "WIRELESS GAMING MOUSE G705",
+        category: "mouses",
+        price: 104.98,
+        image: "images/mouses/2.png",
+    },
+    {
+        name: "WIRELESS MOUSE PRO",
+        category: "mouses",
+        price: 117.20,
+        image: "images/mouses/3.png",
+    },
+    {
+        name: "LIGHTSPEED WIRELESS GAMING MOUSE",
+        category: "mouses",
+        price: 159.59,
+        image: "images/mouses/4.png",
+    },
+    {
+        name: "G402 HYPERION FURY",
+        category: "mouses",
+        price: 31.09,
+        image: "images/mouses/5.png",
+    },
+    {
+        name: "LIGHTSPEED G535 WIRELESS GAMING HEADPHONE",
+        category: "headphones",
+        price: 138.58,
+        image: "images/headphones/1.png",
+    },
+    {
+        name: "G735",
+        category: "headphones",
+        price: 222.60,
+        image: "images/headphones/2.png",
+    },
+    {
+        name: "PRO GAMING HEADPHONES",
+        category: "headphones",
+        price: 146.61,
+        image: "images/headphones/3.png",
+    },
+    {
+        name: "G733",
+        category: "headphones",
+        price: 146.61,
+        image: "images/headphones/4.png",
+    },
+    {
+        name: "G633 SHARP SOUND (ARTEMIS SPECTRUM)",
+        category: "headphones",
+        price: 125.98,
+        image: "images/headphones/5.png",
+    },
+    {
+        name: "G715",
+        category: "keyboards",
+        price: 197.40,
+        image: "images/keyboards/1.png",
+    },
+    {
+        name: "LOGITECH G413 SE MECHANICAL GAMING KEYBOARD",
+        category: "keyboards",
+        price: 79.77,
+        image: "images/keyboards/2.png",
+    },
+    {
+        name: "KEYBOARD PRO",
+        category: "keyboards",
+        price: 125.60,
+        image: "images/keyboards/3.png",
+    },
+    {
+        name: "G913 TKL",
+        category: "keyboards",
+        price: 201.22,
+        image: "images/keyboards/4.png",
+    },
+    {
+        name: "G413",
+        category: "keyboards",
+        price: 75.19,
+        image: "images/keyboards/5.png",
+    },
+    {
+        name: "G840 XL GAMING MOUSE PAD",
+        category: "pads",
+        price: 50.75,
+        image: "images/pads/1.png",
+    },
+]
+
+export default products;
